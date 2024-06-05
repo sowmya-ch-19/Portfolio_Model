@@ -1,0 +1,52 @@
+{
+"About_me": {
+    "Introduction": "Hi I am Sowmya",
+                    "Building the future of AI with a passion for software development.",
+
+  },
+
+{
+"Projects":[
+  {
+  "Name":"ChatBot for Agriculture",
+  "Description":"This Chatbot provides information regarding various aspects of agriculture such as crop management, pest control, weather forecasting, market prices, and general farming queries",
+  "Technologies":["Python","ChatGPT APIs","React","Streamlit"],
+  "Image_url":"   ",
+  "Github_url":"    "
+  },
+  {
+  "Name":"MCQ Creator Application",
+  "Description":"An automated system capable of generating meaningful and contextually accurate MCQs from given text data. Evaluate the effectiveness of LLM-generated MCQs",
+  "Technologies":["Langchain","OpenAPIs","VectorDB","Streamlit"],
+  "Image_url":"   ",
+  "Github_url":"   "
+  },
+  {
+  "Name":"Weather Application",
+  "Description":"Created a application,Enabled users to input a city, fetching real-time weather conditions using Open Weather API,Demonstrated strong API integration skills",
+  "Technologies":["Python","Flask","OpenweatherAPI"],
+  "Image_url":"         ",
+  "Github_url":"       "
+  },
+  {
+  "Name":"Simple SMS Alert for Pending Orders",
+  "Description":"Implemented a system to send SMS alerts for orders pending for over 2 hours,•This setup ensures timely notifications and enhances order management efficiency",
+  "Technologies":["Python","GCP","Cloud Scheduler","Firebase"],
+  "Image_url":"          ",
+  "Github_url":"         "
+  },
+  "Education"[
+  {
+  "Degree":"Bachelor's of Technology",
+  "Institution":"Pallavi Engineering College"
+  }
+  ],
+  "Skills":["Python","AWS","Firebase","Dialog Flow","GCP","Generative AI","Flask","RestAPIs","Streamlit","TensorFlow"],
+  "Resume":{
+  "Download_link":"     ",
+  },
+  "Contact_Info":{
+  "LinkedIn_url":"         ",
+  "Github_url":"         "
+  },
+  }
