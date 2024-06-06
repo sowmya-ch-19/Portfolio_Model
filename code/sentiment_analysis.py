@@ -1,18 +1,20 @@
-# This is a simple sentiment analysis model code
-def analyze_sentiment(text):
-    """
-    Analyzes the sentiment of a given text.
+from your_model import SentimentAnalyzer
 
-    Parameters:
-        text (str): The text to analyze.
+# Example usage
+texts = [
+    "I love this product, it's amazing!",
+    "This is a bad experience.",
+    "It's okay, nothing special."
+]
+labels = ['positive', 'negative', 'neutral']
 
-    Returns:
-        str: The sentiment of the text ('positive', 'negative', or 'neutral').
-    """
-    # Perform sentiment analysis using basic rules
-    if "good" in text:
-        return "positive"
-    elif "bad" in text:
-        return "negative"
-    else:
-        return "neutral"
+X_train = texts
+y_train = labels
+
+analyzer = SentimentAnalyzer()
+analyzer.train(X_train, y_train)
+
+X_test = ["I am extremely happy with the service.", "The food was terrible and the service was bad."]
+predicted_labels = analyzer.predict(X_test)
+
+print(predicted_labels)
