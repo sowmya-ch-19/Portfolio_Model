@@ -1,0 +1,11 @@
+text,sentiment
+"I love this product, it's amazing!",positive
+"This is a bad experience.",negative
+"It's okay, nothing special.",neutral
+"I am extremely happy with the service.",positive
+"The food was terrible and the service was bad.",negative
+"I feel indifferent about the new policy.",neutral
+"This is the best day of my life!",positive
+"The weather today is quite gloomy.",negative
+"The movie was neither good nor bad.",neutral
+"I had a fantastic time at the concert!",positive
